@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MQ-coursework</title>
     <link rel="stylesheet" href="css/style.css">
@@ -415,8 +414,8 @@
             <li class="socials-item">
                 <a href="#" class="social-link icon-pinterest link">
                     <svg viewBox="0 0 310.05 310.05"  xmlns="http://www.w3.org/2000/svg">
-                        <g id="">
-                            <path id="" d="M245.265,31.772C223.923,11.284,194.388,0,162.101,0c-49.32,0-79.654,20.217-96.416,37.176
+                        <g>
+                            <path d="M245.265,31.772C223.923,11.284,194.388,0,162.101,0c-49.32,0-79.654,20.217-96.416,37.176
 		                    c-20.658,20.9-32.504,48.651-32.504,76.139c0,34.513,14.436,61.003,38.611,70.858c1.623,0.665,3.256,1,4.857,1
 		                    c5.1,0,9.141-3.337,10.541-8.69c0.816-3.071,2.707-10.647,3.529-13.936c1.76-6.495,0.338-9.619-3.5-14.142
 		                    c-6.992-8.273-10.248-18.056-10.248-30.788c0-37.818,28.16-78.011,80.352-78.011c41.412,0,67.137,23.537,67.137,61.425
@@ -447,8 +446,8 @@
             <li class="socials-item">
                 <a href="#" class="social-link icon-instagram link">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-                        <g id="">
-                            <path id="" d="M38.52,0.012h222.978C282.682,0.012,300,17.336,300,38.52v222.978c0,21.178-17.318,38.49-38.502,38.49
+                        <g>
+                            <path d="M38.52,0.012h222.978C282.682,0.012,300,17.336,300,38.52v222.978c0,21.178-17.318,38.49-38.502,38.49
 			                H38.52c-21.184,0-38.52-17.313-38.52-38.49V38.52C0,17.336,17.336,0.012,38.52,0.012z M218.546,33.329
 		                  	c-7.438,0-13.505,6.091-13.505,13.525v32.314c0,7.437,6.067,13.514,13.505,13.514h33.903c7.426,0,13.506-6.077,13.506-13.514
 		                	V46.854c0-7.434-6.08-13.525-13.506-13.525H218.546z M266.084,126.868h-26.396c2.503,8.175,3.86,16.796,3.86,25.759
@@ -464,8 +463,8 @@
             <li class="socials-item">
                 <a href="#" class="social-link icon-tumblr link">
                     <svg viewBox="0 0 310 310" xmlns="http://www.w3.org/2000/svg">
-                        <g id="">
-                            <path id="" d="M249.775,236.928c-1.613-0.873-3.58-0.789-5.119,0.221c-14.15,9.295-28.469,14.007-42.557,14.007
+                        <g>
+                            <path d="M249.775,236.928c-1.613-0.873-3.58-0.789-5.119,0.221c-14.15,9.295-28.469,14.007-42.557,14.007
 	                    	c-7.678,0-14.285-1.725-20.236-5.297c-4.023-2.366-6.688-5.399-8.139-9.257c-1.107-2.978-2.43-10.9-2.43-31.739v-71.945h66.168
 	                    	c2.762,0,5-2.239,5-5V80.818c0-2.762-2.238-5-5-5h-66.168V5c0-2.762-2.238-5-5-5h-42.684c-2.523,0-4.652,1.881-4.961,4.386
 	                    	c-1.836,14.831-5.201,27.143-10.01,36.601c-4.744,9.381-11.141,17.526-19.018,24.216c-7.842,6.687-17.451,11.899-28.563,15.491
@@ -490,22 +489,20 @@
 </div>
 <div class="popup" id="popup">
     <div class="popup-container">
-        <a href="#popup">
-            <button class="popup-close" type="submit">Закрыть окно</button>
-        </a>
+        <a href="#popup" class="popup-close" type="submit">Закрыть окно</a>
         <div class="feedback">
             <h2 class="feedback-title line"><a href="#" class="sidebar-title-link link">Ваш ФИДБЕк</a></h2>
             <div class="feedback-content">
-                <form action="" class="feedback-form">
+                <form action="#popup" class="feedback-form">
                     <div class="feedback-row">
                         <span class="feedback-text">Как часто вы заходите на сайт?</span>
                         <span class="visually-hidden">выпадающий список</span>
                         <label for="select"></label>
-                        <select class="feedback-select field" name="" id="select" required>
-                            <option class="feedback-option" value="Почти каждый день">Почти каждый день</option>
-                            <option class="feedback-option" value="Раз в несколько дней">Раз в несколько дней</option>
-                            <option class="feedback-option" value="Раз в несколько недель">Раз в несколько недель</option>
-                            <option class="feedback-option" value="Несколько раз в год">Несколько раз в год</option>
+                        <select class="feedback-select field" name="feedback-select" id="select">
+                            <option value="Почти каждый день">Почти каждый день</option>
+                            <option value="Раз в несколько дней">Раз в несколько дней</option>
+                            <option value="Раз в несколько недель">Раз в несколько недель</option>
+                            <option value="Несколько раз в год">Несколько раз в год</option>
                         </select>
                     </div>
                     <div class="feedback-row">
@@ -526,7 +523,7 @@
                         <span class="feedback-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
                         <span class="visually-hidden">текстовое поле ввода</span>
                         <label>
-                            <textarea class="feedback-textarea field" placeholder="Может, больше рецептов?" required></textarea>
+                            <textarea class="feedback-textarea field" name="feedback-textarea" placeholder="Может, больше рецептов?" required></textarea>
                         </label>
                     </div>
                     <button class="feedback-button button" type="submit"><span class="button-text">Отправить</span></button>
