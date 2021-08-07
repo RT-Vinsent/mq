@@ -1,2 +1,3 @@
-# mq-diplom-coursework-
-# Тот самый идеальынй вариант mq-diplom ;)
+# Тот самый идеальынй вариант mq-diplom - coursework ;)
+** бургер меню и попап работают на html и сss.
+
